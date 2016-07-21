@@ -1,7 +1,7 @@
 {
   "name": "cape-redux-reducer",
   "version": "1.0.0",
-  "description": "Default cape reducer.",
+  "description": "Default cape Redux reducer.",
   "main": "lib/index.js",
   "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
   "repository": "cape-io/cape-redux-reducer",
@@ -11,7 +11,7 @@
   "scripts": {
     "build": "mkdir -p lib && babel ./src -d lib",
     "prepublish": "npm run build",
-    "postinstall": "mkdir -p lib && NODE_ENV=production babel ./src -d lib && npm run build",
+    "postinstall": "mkdir -p lib && NODE_ENV=production babel src -d lib && npm run build",
     "test": "babel-tape-runner test/**/*spec.js"
   },
   "license": "ISC",
