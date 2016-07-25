@@ -7,8 +7,6 @@ pids
 *.pid
 *.seed
 
-lib
-
 # Coverage directory used by tools like istanbul
 coverage
 
