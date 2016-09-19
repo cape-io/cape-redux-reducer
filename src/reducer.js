@@ -1,3 +1,4 @@
+export auth from 'cape-redux-auth'
 export db from './db'
 export errorMessage from './errMsg'
 export { fieldReducer as form } from 'redux-field'
