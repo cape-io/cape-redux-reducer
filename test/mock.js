@@ -1,0 +1,35 @@
+export const state = {
+  auth: {
+    auth: null,
+    authenticated: false,
+    sid: null,
+    tokenSent: false,
+    tokenSending: false,
+    tokenValid: null,
+    tokenValidating: false,
+    user: {},
+  },
+  db: { title: 'Default Title' },
+  errorMessage: null,
+  form: {},
+  graph:
+   { entity: {},
+     triple: { spo: {}, sop: {}, osp: {}, ops: {}, pos: {}, pso: {} } },
+  history:
+   { activeKey: null,
+     firstKey: null,
+     key: {},
+     lastKey: null,
+     refresh: false },
+  session: {},
+  socket:
+   { connected: false,
+     endTime: null,
+     presenter: null,
+     sessionId: null,
+     siteId: null,
+     socketId: null,
+     startTime: null,
+     subscriber: {} },
+  id: null,
+}

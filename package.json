@@ -16,11 +16,13 @@
   "license": "ISC",
   "dependencies": {
     "cape-redux": "^1.1.2",
-    "cape-redux-auth": "^1.0.0",
+    "cape-redux-auth": "^1.0.2",
+    "cape-redux-socket": "^2.0.1",
     "lodash": "^4.15.0",
     "react": "^15.2.1",
     "redux-field": "^3.2.0",
-    "redux-graph": "^1.1.0"
+    "redux-graph": "^1.1.0",
+    "redux-history-sync": "^2.1.1"
   },
   "devDependencies": {
     "babel-cli": "^6.14.0",
@@ -33,6 +35,7 @@
     "eslint": "^3.5.0",
     "eslint-config-airbnb-base": "^7.1.0",
     "eslint-plugin-import": "^1.15.0",
+    "redux": "^3.6.0",
     "tape": "^4.6.0"
   }
 }
