@@ -2,19 +2,23 @@ export const state = {
   auth: {
     auth: null,
     authenticated: false,
-    sid: null,
+    token: null,
     tokenSent: false,
     tokenSending: false,
     tokenValid: null,
     tokenValidating: false,
-    user: {},
+    user: { id: 'anonUser', type: 'Person', name: 'Anonymous' },
   },
+  collection: { collection: null, item: null, listItem: null },
   db: { title: 'Default Title' },
   errorMessage: null,
   form: {},
   graph:
    { entity: {},
-     triple: { spo: {}, sop: {}, osp: {}, ops: {}, pos: {}, pso: {} } },
+      triple: { spo: {}, sop: {}, osp: {}, ops: {}, pos: {}, pso: {} },
+      typeIndex: {},
+   },
+  graph2: {},
   history:
    { activeKey: null,
      firstKey: null,
@@ -31,5 +35,4 @@ export const state = {
      socketId: null,
      startTime: null,
      subscriber: {} },
-  id: null,
 }
