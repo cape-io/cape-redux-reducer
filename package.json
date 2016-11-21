@@ -1,6 +1,6 @@
 {
   "name": "cape-redux-reducer",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Default cape Redux reducer.",
   "main": "lib/index.js",
   "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
@@ -20,7 +20,6 @@
     "cape-redux-auth": "^2.1.0",
     "cape-redux-collection": "^3.2.2",
     "cape-redux-socket": "^3.0.1",
-    "eslint-plugin-import": "^2.2.0",
     "lodash": "^4.17.2",
     "redux-field": "^3.4.1",
     "redux-graph": "^1.7.1",
@@ -37,7 +36,7 @@
     "babel-tape-runner": "^2.0.1",
     "eslint": "^3.10.2",
     "eslint-config-airbnb-base": "10.0.1",
-    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-import": "^2.2.0",
     "react": "15.4.0",
     "redux": "^3.6.0",
     "tape": "^4.6.2"
