@@ -15,7 +15,6 @@
   },
   "license": "ISC",
   "dependencies": {
-    "@kaicurry/redux-graph": "^2.6.7",
     "cape-redux": "^2.2.1",
     "cape-redux-auth": "^3.0.1",
     "cape-redux-collection": "^3.3.0",
