@@ -860,18 +860,18 @@ cape-redux-collection@^3.3.0:
     redux-history-sync "^3.1.0"
     reselect "^2.5.4"
 
-cape-redux-socket@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/cape-redux-socket/-/cape-redux-socket-3.0.1.tgz#2c4b39160aa503431252af976a72cb1308ce599a"
+cape-redux-socket@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/cape-redux-socket/-/cape-redux-socket-3.0.2.tgz#d1f95ce61edd4c15ebd36fe4442b5d357b8fc3bc"
   dependencies:
-    cape-lodash "^1.5.0"
-    cape-redux "^1.6.0"
-    cape-select "^2.2.1"
+    cape-lodash "^1.7.0"
+    cape-redux "^2.2.1"
+    cape-select "^2.3.1"
     js-cookie "^2.1.3"
-    lodash "^4.16.6"
+    lodash "^4.17.2"
     reselect "^2.5.4"
 
-cape-redux@^1.5.0, cape-redux@^1.6.0, cape-redux@^1.6.1:
+cape-redux@^1.6.1:
   version "1.6.1"
   resolved "https://registry.yarnpkg.com/cape-redux/-/cape-redux-1.6.1.tgz#f0847b386c3fb9201110e19c35015af2e34cb9cd"
   dependencies:
@@ -1889,7 +1889,7 @@ lodash.pickby@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.pickby/-/lodash.pickby-4.6.0.tgz#7dea21d8c18d7703a27c704c15d3b84a67e33aff"
 
-lodash@^4.0.0, lodash@^4.15.0, lodash@^4.16.2, lodash@^4.16.4, lodash@^4.16.6, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
+lodash@^4.0.0, lodash@^4.15.0, lodash@^4.16.2, lodash@^4.16.6, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
 
@@ -2264,15 +2264,6 @@ redux-graph@^1.7.1:
     redux "^3.6.0"
     reselect "^2.5.4"
     seamless-immutable "^6.3.0"
-
-redux-history-sync@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/redux-history-sync/-/redux-history-sync-3.0.1.tgz#297a16eae5779fb4a32c908059193c098bf34619"
-  dependencies:
-    cape-redux "^1.5.0"
-    classnames "^2.2.5"
-    lodash "^4.16.4"
-    redux "^3.6.0"
 
 redux-history-sync@^3.1.0:
   version "3.1.0"
