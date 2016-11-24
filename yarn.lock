@@ -2,17 +2,6 @@
 # yarn lockfile v1
 
 
-"@kaicurry/redux-graph@^2.6.7":
-  version "2.6.7"
-  resolved "https://registry.yarnpkg.com/@kaicurry/redux-graph/-/redux-graph-2.6.7.tgz#2a4093dc85e6449cd446e9d892c281a7a18ef68c"
-  dependencies:
-    cape-lodash "^1.7.0"
-    cape-redux "^2.2.1"
-    cape-select "^2.3.1"
-    lodash "^4.17.2"
-    redux "^3.6.0"
-    reselect "^2.5.4"
-
 abbrev@1:
   version "1.0.9"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.0.9.tgz#91b4792588a7738c25f35dd6f63752a2f8776135"
@@ -837,16 +826,6 @@ cape-lodash@^1.7.0:
   dependencies:
     lodash "^4.16.6"
 
-cape-redux-auth@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/cape-redux-auth/-/cape-redux-auth-3.0.1.tgz#ffdd1fb551791f36f63b359cfbb687e7c94beb9a"
-  dependencies:
-    "@kaicurry/redux-graph" "^2.6.7"
-    cape-redux "^2.2.1"
-    cape-select "^2.3.1"
-    lodash "^4.17.2"
-    redux-history-sync "^3.1.0"
-
 cape-redux-auth@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/cape-redux-auth/-/cape-redux-auth-4.0.0.tgz#c8f31fcb149d12cba5aaebd24aa63827335b32af"
@@ -857,13 +836,13 @@ cape-redux-auth@^4.0.0:
     redux-graph "^2.7.0"
     redux-history-sync "^3.1.0"
 
-cape-redux-collection@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/cape-redux-collection/-/cape-redux-collection-4.0.0.tgz#e7c4a3500ea0c56264f14f322cb6580b3a6174d6"
+cape-redux-collection@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/cape-redux-collection/-/cape-redux-collection-4.0.1.tgz#45c5561eb4d52737447c4d2b58a90eadf9044d99"
   dependencies:
     cape-lodash "^1.7.0"
     cape-redux "^2.2.1"
-    cape-redux-auth "^3.0.1"
+    cape-redux-auth "^4.0.0"
     cape-select "^2.3.1"
     lodash "^4.17.2"
     redux-graph "^2.7.0"
