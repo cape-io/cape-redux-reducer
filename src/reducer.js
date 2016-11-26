@@ -1,6 +1,6 @@
 export auth from 'cape-redux-auth'
 export collection from 'cape-redux-collection'
-export db from './db'
+export db from './db/reducer'
 export errorMessage from './errMsg'
 export { fieldReducer as form } from 'redux-field'
 export graph2 from 'redux-graph'
