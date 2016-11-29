@@ -836,7 +836,7 @@ cape-redux-auth@^4.0.0:
     redux-graph "^2.7.0"
     redux-history-sync "^3.1.0"
 
-cape-redux-collection@4.0.1:
+cape-redux-collection@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/cape-redux-collection/-/cape-redux-collection-4.0.1.tgz#45c5561eb4d52737447c4d2b58a90eadf9044d99"
   dependencies:
@@ -852,6 +852,15 @@ cape-redux-collection@4.0.1:
 cape-redux@^2.2.1:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/cape-redux/-/cape-redux-2.2.1.tgz#12c841bb268dc28f4ace3c1e19f3c7daf356cd25"
+  dependencies:
+    cape-lodash "^1.7.0"
+    lodash "^4.17.2"
+    redux "^3.6.0"
+    seamless-immutable "^6.3.0"
+
+cape-redux@^2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/cape-redux/-/cape-redux-2.3.0.tgz#2784680e16df774ba728c4fcca8b3751d201bd57"
   dependencies:
     cape-lodash "^1.7.0"
     lodash "^4.17.2"
@@ -1854,7 +1863,7 @@ lodash.pickby@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/lodash.pickby/-/lodash.pickby-4.6.0.tgz#7dea21d8c18d7703a27c704c15d3b84a67e33aff"
 
-lodash@^4.0.0, lodash@^4.15.0, lodash@^4.16.2, lodash@^4.16.6, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
+"lodash@^ 4.17.2", lodash@^4.0.0, lodash@^4.15.0, lodash@^4.16.6, lodash@^4.17.2, lodash@^4.2.0, lodash@^4.2.1, lodash@^4.3.0:
   version "4.17.2"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.2.tgz#34a3055babe04ce42467b607d700072c7ff6bf42"
 
@@ -2208,11 +2217,13 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-redux-field@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/redux-field/-/redux-field-3.4.1.tgz#bde3c2657bc162eb90465d2d3e8cb66ac634f5df"
+redux-field@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/redux-field/-/redux-field-4.0.0.tgz#59cb6764467dae20e17d49479ad8c6d0bf3fd15c"
   dependencies:
-    lodash "^4.16.2"
+    cape-redux "^2.3.0"
+    cape-select "^2.3.1"
+    lodash "^ 4.17.2"
     react-redux "^4.4.5"
     redux "^3.6.0"
     reselect "^2.5.4"
