@@ -2217,9 +2217,9 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-redux-field@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/redux-field/-/redux-field-4.0.1.tgz#e173e56231557350e12104cf829104e813be6ef8"
+redux-field@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/redux-field/-/redux-field-4.0.2.tgz#2f5acd1b96e1421a34baa0148f34740b01530d0f"
   dependencies:
     cape-redux "^2.3.0"
     cape-select "^2.3.1"
