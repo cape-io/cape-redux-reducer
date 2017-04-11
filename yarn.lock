@@ -2350,7 +2350,7 @@ rechoir@^0.6.2:
   dependencies:
     resolve "^1.1.6"
 
-redux-field@^4.4.1:
+redux-field@^4.4.1, redux-field@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/redux-field/-/redux-field-4.5.0.tgz#feff5f41a1603bb47c89c5a7b00d465dc9ee5573"
   dependencies:
@@ -2374,6 +2374,17 @@ redux-graph@^2.10.0, redux-graph@^2.7.0, redux-graph@^2.9.0:
     redux "^3.6.0"
     reselect "^3.0.0"
 
+redux-graph@^2.12.1:
+  version "2.12.1"
+  resolved "https://registry.yarnpkg.com/redux-graph/-/redux-graph-2.12.1.tgz#02e6742389f8715ead44751aa8e767f63c12ca47"
+  dependencies:
+    cape-lodash "^1.11.0"
+    cape-redux "^3.1.0"
+    cape-select "^2.4.0"
+    lodash "^4.17.4"
+    redux "^3.6.0"
+    reselect "^3.0.0"
+
 redux-history-sync@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/redux-history-sync/-/redux-history-sync-3.1.0.tgz#892998c5413d7c13dc26fe03230de054e8a13751"
@@ -2383,7 +2394,7 @@ redux-history-sync@^3.1.0:
     lodash "^4.17.2"
     redux "^3.6.0"
 
-redux-thunk@^2.1.0:
+redux-thunk@^2.1.0, redux-thunk@^2.2.0:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/redux-thunk/-/redux-thunk-2.2.0.tgz#e615a16e16b47a19a515766133d1e3e99b7852e5"
 
