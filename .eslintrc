@@ -1,20 +1,9 @@
 {
   "extends": [
-    "airbnb-base",
-    "plugin:import/errors",
-    "plugin:import/warnings"
+    "airbnb-base"
   ],
-  "ecmaFeatures": {
-    "jsx": true,
-    "modules": true
-  },
   "env": {
     "browser": false
-  },
-  "parserOptions": {
-    "ecmaFeatures": {
-      "experimentalObjectRestSpread": true
-    }
   },
   "rules": {
     "comma-dangle": [2, "always-multiline"],
@@ -22,20 +11,12 @@
       "min": 3,
       "max": 30,
       "properties": "never",
-      "exceptions": ["t", "io", "id", "fs", "$", "_"]
+      "exceptions": ["t", "id", "db", "Me", "me"]
     }],
+    "import/no-named-as-default": 0,
     "no-console": 1,
     "no-alert": 1,
     "no-trailing-spaces": 2,
     "semi": [ 2, "never" ]
-  },
-  "plugins": [
-    "import"
-  ],
-  "settings": {
-    "import/parser": "babel-eslint",
-    "import/resolve": {
-      "moduleDirectory": ["node_modules", "src"]
-    }
   }
 }
