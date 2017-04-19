@@ -1,4 +1,4 @@
-import identity from 'lodash'
+import identity from 'lodash/identity'
 
 export { default as auth } from 'cape-redux-auth'
 export { default as collection } from 'cape-redux-collection'
