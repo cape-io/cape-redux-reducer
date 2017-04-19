@@ -5,6 +5,7 @@ export { default as collection } from 'cape-redux-collection'
 export { default as db } from './db/reducer'
 export const config = defaultTo({})
 export { default as errorMessage } from './errMsg'
+export { reducer as firebase } from 'cape-firebase'
 export { default as form } from 'redux-field'
 export { default as graph2 } from 'redux-graph'
 export { historyReducer as history } from 'redux-history-sync'
