@@ -854,6 +854,12 @@ cape-lodash@^1.10.0, cape-lodash@^1.11.0, cape-lodash@^1.7.0, cape-lodash@^1.8.0
   dependencies:
     lodash "^4.17.2"
 
+cape-lodash@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/cape-lodash/-/cape-lodash-1.12.0.tgz#75da92fd3a3920db8966cff0103e03b65b82821b"
+  dependencies:
+    lodash "^4.17.2"
+
 cape-redux-auth@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/cape-redux-auth/-/cape-redux-auth-4.0.0.tgz#c8f31fcb149d12cba5aaebd24aa63827335b32af"
@@ -2014,6 +2020,17 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
+location-info@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/location-info/-/location-info-4.0.1.tgz#e553aff22c445fb7df536f99c7c7277c98ed93e8"
+  dependencies:
+    cape-lodash "^1.12.0"
+    cape-redux "^3.1.0"
+    cape-select "^2.4.0"
+    lodash "^4.17.4"
+    reselect "^3.0.0"
+    url-pattern "^1.0.2"
+
 lodash-es@^4.2.0, lodash-es@^4.2.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.4.tgz#dcc1d7552e150a0640073ba9cb31d70f032950e7"
@@ -2305,13 +2322,7 @@ promise@^7.1.1:
   dependencies:
     asap "~2.0.3"
 
-prop-types@^15.0.0:
-  version "15.5.6"
-  resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.6.tgz#797a915b1714b645ebb7c5d6cc690346205bd2aa"
-  dependencies:
-    fbjs "^0.8.9"
-
-prop-types@^15.5.7:
+prop-types@^15.0.0, prop-types@^15.5.7:
   version "15.5.8"
   resolved "https://registry.yarnpkg.com/prop-types/-/prop-types-15.5.8.tgz#6b7b2e141083be38c8595aa51fc55775c7199394"
   dependencies:
@@ -2837,6 +2848,10 @@ ua-parser-js@^0.7.9:
 uid-number@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
+
+url-pattern@^1.0.2:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/url-pattern/-/url-pattern-1.0.3.tgz#0409292471b24f23c50d65a47931793d2b5acfc1"
 
 user-home@^1.1.1:
   version "1.1.1"
