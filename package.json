@@ -21,7 +21,7 @@
     "cape-redux-auth": "^4.0.0",
     "cape-redux-collection": "^4.0.1",
     "cape-select": "^2.4.0",
-    "location-info": "^4.0.2",
+    "location-info": "^4.0.3",
     "lodash": "^4.17.4",
     "redux": "^3.6.0",
     "redux-field": "^4.5.0",

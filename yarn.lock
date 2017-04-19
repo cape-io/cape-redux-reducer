@@ -2028,9 +2028,9 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-location-info@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/location-info/-/location-info-4.0.2.tgz#8f00c9856a620dae87fdcc659e7d93f7663b5ecd"
+location-info@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/location-info/-/location-info-4.0.3.tgz#4bf62df08c4f80f1c5c3e5e588966e047fbe4686"
   dependencies:
     cape-lodash "^1.12.0"
     cape-redux "^3.1.0"

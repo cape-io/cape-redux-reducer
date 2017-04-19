@@ -3,7 +3,7 @@ import { forEach } from 'lodash'
 import { createStore } from 'redux'
 
 import reducer from '../src'
-import { state } from './mock'
+import state from './mock'
 
 test('reducer', (t) => {
   const store = createStore(reducer)
@@ -11,5 +11,6 @@ test('reducer', (t) => {
   forEach(state, (moduleState, key) => {
     t.deepEqual(appState[key], moduleState, key)
   })
+  createStore(reducer, { firebase: { config: {} } })
   t.end()
 })

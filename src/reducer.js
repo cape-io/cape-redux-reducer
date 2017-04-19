@@ -2,8 +2,8 @@ import { defaultTo } from 'lodash/fp'
 
 export { default as auth } from 'cape-redux-auth'
 export { default as collection } from 'cape-redux-collection'
-export { default as db } from './db/reducer'
 export const config = defaultTo({})
+export { default as db } from './db/reducer'
 export { default as errorMessage } from './errMsg'
 export { reducer as firebase } from 'cape-firebase'
 export { default as form } from 'redux-field'

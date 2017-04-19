@@ -1,4 +1,4 @@
-export const state = {
+export default {
   auth: {
     auth: null,
     authenticated: false,
