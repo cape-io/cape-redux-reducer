@@ -190,9 +190,9 @@ babel-core@^6.24.1:
     slash "^1.0.0"
     source-map "^0.5.0"
 
-babel-eslint@^7.0.0:
-  version "7.2.1"
-  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-7.2.1.tgz#079422eb73ba811e3ca0865ce87af29327f8c52f"
+babel-eslint@^7.2.2:
+  version "7.2.2"
+  resolved "https://registry.yarnpkg.com/babel-eslint/-/babel-eslint-7.2.2.tgz#0da2cbe6554fd0fb069f19674f2db2f9c59270ff"
   dependencies:
     babel-code-frame "^6.22.0"
     babel-traverse "^6.23.1"
@@ -848,9 +848,9 @@ cape-firebase@^0.3.0:
     redux-field "^4.4.1"
     redux-graph "^2.10.0"
 
-cape-firebase@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/cape-firebase/-/cape-firebase-1.0.1.tgz#9a032d7cc8da7d836a033926fcb854743d20fce8"
+cape-firebase@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/cape-firebase/-/cape-firebase-1.0.2.tgz#b4de3c808a68f82a98d9901248046a2fb3e42063"
   dependencies:
     cape-lodash "^1.11.0"
     cape-redux "^3.1.0"
@@ -862,15 +862,9 @@ cape-firebase@^1.0.1:
     redux-field "^4.4.1"
     redux-graph "^2.11.0"
 
-cape-lodash@^1.10.0, cape-lodash@^1.12.0:
+cape-lodash@^1.10.0, cape-lodash@^1.11.0, cape-lodash@^1.12.0, cape-lodash@^1.7.0, cape-lodash@^1.8.0:
   version "1.12.0"
   resolved "https://registry.yarnpkg.com/cape-lodash/-/cape-lodash-1.12.0.tgz#75da92fd3a3920db8966cff0103e03b65b82821b"
-  dependencies:
-    lodash "^4.17.2"
-
-cape-lodash@^1.11.0, cape-lodash@^1.7.0, cape-lodash@^1.8.0:
-  version "1.11.0"
-  resolved "https://registry.yarnpkg.com/cape-lodash/-/cape-lodash-1.11.0.tgz#ba6d6d20e20bc771dcfcf32775d395fda4fb5007"
   dependencies:
     lodash "^4.17.2"
 

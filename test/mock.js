@@ -10,8 +10,10 @@ export const state = {
     user: { id: 'anonUser', type: 'Person', name: 'Anonymous' },
   },
   collection: { collection: null, item: null, listItem: null },
+  config: {},
   db: { title: 'Default Title' },
   errorMessage: null,
+  firebase: { doSignInAnon: false },
   form: {},
   graph2: {},
   history: {
