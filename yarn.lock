@@ -848,9 +848,9 @@ cape-firebase@^0.3.0:
     redux-field "^4.4.1"
     redux-graph "^2.10.0"
 
-cape-firebase@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/cape-firebase/-/cape-firebase-1.0.6.tgz#681986caa269afa58d3689f2fd6990eb184052b8"
+cape-firebase@^1.0.7:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/cape-firebase/-/cape-firebase-1.0.7.tgz#65b7c294e0fa762b7476b6923b8ad564ada3a957"
   dependencies:
     cape-lodash "^1.11.0"
     cape-redux "^3.1.0"
