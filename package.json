@@ -1,6 +1,6 @@
 {
   "name": "cape-redux-reducer",
-  "version": "3.11.1",
+  "version": "3.11.2",
   "description": "Default cape Redux reducer.",
   "main": "lib/index.js",
   "author": "Kai Curry <kai@cape.io> (http://www.cape.io/)",
@@ -15,13 +15,13 @@
   },
   "license": "ISC",
   "dependencies": {
-    "cape-firebase": "^1.0.7",
+    "cape-firebase": "^1.0.8",
     "cape-lodash": "^1.12.0",
     "cape-redux": "^3.1.0",
     "cape-redux-auth": "^4.0.0",
     "cape-redux-collection": "^4.0.1",
     "cape-select": "^2.4.0",
-    "location-info": "^4.0.3",
+    "location-info": "^4.0.2",
     "lodash": "^4.17.4",
     "redux": "^3.6.0",
     "redux-field": "^4.5.0",
